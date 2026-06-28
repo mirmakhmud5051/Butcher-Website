@@ -781,6 +781,15 @@ header ul{
   display: none;
 }
 
+.beef{
+  display: none;
+
+}
+
+.chicken{
+  display: none;
+}
+
 .hero__text{
   display: flex;
   flex-direction: column;
@@ -802,7 +811,7 @@ header ul{
 
 .hero__text h3{
   font-size: 15px;
-  width: 380px;
+  width: 340px;
 }
 
 .hero__text img{
@@ -811,8 +820,27 @@ header ul{
 
 
 .companies img{
-  width: 400px;
+  width: 350px;
 }
+
+
+.hero2__text h1{
+font-size: 26px;
+}
+
+.hero2__text p{
+  font-size: 16px;
+  width: 300px;
+}
+.hero2__text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
 
 .hero2__cards{
   display: flex;
@@ -834,17 +862,17 @@ header ul{
 }
 
 .hero3__text h1{
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .hero3__text p{
-  font-size: 18px;
-  width: 460px;
+  font-size: 15px;
+  width: 320px;
   margin-top: 20px;
 }
 
 .hero__vd video{
-  width: 430px;
+  width: 350px;
 margin-top: -160px;
 }
 
@@ -861,12 +889,41 @@ justify-content: center;
 }
 
 .top__img h3{
-  font-size: 20px;
-  width: 450px;
+  font-size: 16px;
+  width: 350px;
+}
+
+.top__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.hero4__top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top__text img{
+  display: none;
+}
+
+.top__text small{
+  display: none;
+}
+
+.hero4__bottom{
+  gap: 20px;
 }
 
 .hero5__text p{
-  width: 400px;
+  width: 350px;
 }
 
 .hero5__cards{
@@ -878,7 +935,7 @@ justify-content: center;
 }
 
 .hero6__text p{
-  width: 400px;
+  width: 350px;
 }
 
 .hero6__cards{
@@ -889,8 +946,13 @@ justify-content: center;
   text-align: center;
 }
 
+.hero6__cards img{
+  width: 270px;
+
+}
+
 .hero7__text h1{
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .hero7__text{
@@ -899,7 +961,7 @@ justify-content: center;
 margin-bottom: -100px;}
 
 .hero7__text p{
-  width: 400px;
+  width: 350px;
 }
 
 .hero7__text select{
