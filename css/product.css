@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Jost", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(45, 53, 91, 1);
+}
+
+header a {
+  color: rgba(45, 53, 91, 1);
+}
+
+header select {
+  border: none;
+}
+
+.hero {
+  background-color: rgba(255, 227, 229, 1);
+  width: 100%;
+  height: 492px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+
+.hero__img {
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+}
+
+.hero__img img {
+  width: 330px;
+  height: 402px;
+  border-radius: 16px;
+}
+
+.hero__img1 {
+  position: absolute;
+  top: -220px;
+}
+
+.hero__img2 {
+  position: absolute;
+  top: -180px;
+  left: 140px;
+}
+
+.hero__text h1 {
+  color: rgba(39, 45, 65, 1);
+  font-size: 50px;
+  font-weight: 800;
+  width: 472px;
+  height: 108px;
+}
+
+.hero__text p {
+  color: rgba(101, 109, 137, 1);
+  font-size: 24px;
+  font-weight: 500;
+  width: 431px;
+  height: 70px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero2 {
+  width: 100%;
+  height: 1008px;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.hero2__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+
+.hero2__cards {
+  margin-top: 50px;
+  margin-left: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 930px;
+}
+
+.hero2__cards--card img {
+  width: 270px;
+  height: 294px;
+  border-radius: 35px;
+  margin-bottom: 20px;
+}
+
+.hero2__cards--card {
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero2__title h1 {
+  color: rgba(39, 45, 65, 1);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.hero2__cards--card {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero2__title select {
+  color: rgba(39, 45, 65, 1);
+  padding: 9px 24px;
+  border-radius: 30px;
+}
+
+.hero2__cards--card h3 {
+  color: rgba(101, 109, 137, 1);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.hero2__cards--card h1 {
+  color: rgba(39, 45, 65, 1);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.hero2__cards--card p {
+  color: rgba(101, 109, 137, 1);
+  font-size: 12px;
+  font-weight: 400;
+  width: 211px;
+}
+
+.hero2__cards--card button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 173, 193, 1);
+  color: rgba(227, 18, 68, 1);
+  background-color: white;
+}
+
+.hero2__cards--card:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.hero3__text h1 {
+  color: rgba(39, 45, 65, 1);
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 130px;
+}
+
+.hero3__cards {
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero3__cards--card {
+  display: flex;
+}
+
+.hero3__cards--card img {
+  width: 270px;
+  height: 294px;
+  border-radius: 35px;
+}
+
+.hero3__cards--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  height: 294px;
+  padding: 0 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hero3__cards--text h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(101, 109, 137, 1);
+}
+
+.hero3__cards--text h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(39, 45, 65, 1);
+}
+
+.hero3__cards--text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(101, 109, 137, 1);
+}
+
+.hero3__cards--text button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 173, 193, 1);
+  color: rgba(227, 18, 68, 1);
+  background-color: white;
+}
+
+.hero3__cards--card:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+footer {
+  width: 100%;
+  height: 464px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 236, 239);
+  margin-top: 100px;
+}
+
+.footer__text {
+  display: flex;
+  gap: 140px;
+}
+
+.footer__subtitle ul {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 168px;
+  gap: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(144, 151, 175, 1);
+}
+
+.footer__subtitle span {
+  color: rgba(63, 71, 103, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.footer__logo img {
+  width: 170px;
+}
+
+.footer__logo input {
+  padding: 13px 110px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.footer__logo button {
+  padding: 11px 70px;
+  border-radius: 30px;
+  background-color: rgba(63, 71, 103, 1);
+  border: none;
+  color: white;
+}
+
+.footer__logo p {
+  color: rgba(144, 151, 175, 1);
+}
