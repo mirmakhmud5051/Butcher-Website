@@ -764,6 +764,11 @@ font-size: 12px;
 }
 
 @media(max-width:768px) {
+  .container{
+    width: 100%;
+    max-width: 868px;
+    margin: 0 auto;
+  }
 .hero__img{
   display: none;
 
