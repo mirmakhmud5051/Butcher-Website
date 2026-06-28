@@ -763,7 +763,7 @@ font-size: 12px;
   }
 }
 
-@media(max-width:768px) and (min-width:480px){
+@media(max-width:768px) {
 .hero__img{
   display: none;
 
