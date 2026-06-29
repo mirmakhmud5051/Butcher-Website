@@ -362,3 +362,203 @@ gap: 30px;
 }
 
 
+@media(max-width:1024px) and (min-width:769px){
+  .icons{
+    display: none;
+  }
+
+.hero2__cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ height: 1710px; 
+}
+
+.hero3{
+  margin-top: 800px;
+}
+
+.hero3__cards{
+  display: flex;
+    flex-direction: column;
+gap: 40px;
+}
+
+.footer__subtitle ul{
+  width: 70px;
+  display: none ;
+  gap: 10px;
+}
+
+.footer__text{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.social{
+  display: none;
+}
+}
+
+@media (max-width:768px){
+  .container{
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+.hero__img{
+  display: none;
+}
+
+.icons{
+  display: none;
+}
+
+.beef{
+  display: none;
+}
+
+.chicken{
+  display: none;
+}
+
+.hero__text h1{
+  font-size: 40px;
+  width: 400px;
+
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.hero__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.hero__text p{
+  width: 300px;
+  text-align: center;
+}
+
+.hero2{
+  margin-top: 60px;
+}
+
+.hero2__cards{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 1800px;
+}
+
+.hero2__title{
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.hero2__title select{
+  display: none;
+
+}
+
+.hero3__cards{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.hero3{
+  margin-top: 900px;
+}
+
+#eliminate{
+  display: none;
+}
+
+.hero3__cards--card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero3{
+  margin-top: 1000px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero3__text{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1px;
+  width: 300px;
+  margin-right: 100px;
+}
+
+.footer__subtitle ul{
+  display: none;
+}
+
+.footer__text{
+  width: 100%;
+}
+
+
+.footer__text{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
