@@ -766,7 +766,7 @@ font-size: 12px;
 @media(max-width:768px) {
   .container{
     width: 100%;
-    max-width: 868px;
+    max-width: 768px;
     margin: 0 auto;
   }
 .hero__img{
@@ -794,8 +794,9 @@ header ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  text-align: center;
+width: 100%;
+padding: 20px;
+text-align: center;
   gap: 50px;
 }
 
@@ -971,9 +972,4 @@ margin-bottom: -100px;}
 .footer__text ul{
 display: none;
 }
-
-
-
-
-
 }

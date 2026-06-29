@@ -314,3 +314,51 @@ footer {
 .footer__logo p {
   color: rgba(144, 151, 175, 1);
 }
+
+
+@media(max-width: 1200px) and (min-width:1025px){
+  .container{
+    width: 100%;
+    max-width: 1025px;
+    margin: 0 auto;
+  }
+
+.hero__img img{
+  width: 250px;
+  height: 300px;
+  margin-left: -100px;
+}
+
+.hero__text h1{
+  font-size: 40px;
+  width: 350px;
+}
+
+.hero__text{
+  margin-bottom: 30px;
+}
+
+
+.hero2__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  height: 1100px;
+}
+
+.hero3__cards{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.hero3{
+  margin-top: 170px;
+}
+
+.social{
+  display: none;
+}
+}
+
+
