@@ -780,6 +780,13 @@ header ul{
 .icons{
   display: none;
 }
+.hero{
+  width: 440px;
+}
+
+header{
+  width: 440px;
+}
 
 .beef{
   display: none;
@@ -972,4 +979,19 @@ margin-bottom: -100px;}
 .footer__text ul{
 display: none;
 }
+
+.footer__text{
+  width: 300px;
+  height: 400px;
+  gap: 10px;
+
+margin-right: 90px;}
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 }
