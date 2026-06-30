@@ -17,6 +17,21 @@
   margin: 0 auto;
 }
 
+.boxes{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+height: 1100px;
+
+gap: 100px ;
+padding: 100px 100px;
+justify-content: space-between;
+}
+
+
+.boxes div{
+  width: 400px;
+  height: 400px;
+}
 
 header{
   width: 100%;
@@ -780,12 +795,14 @@ header ul{
 .icons{
   display: none;
 }
+
+
 .hero{
-  /* width: 400px; */
+  width: 400px;
 }
 
 header{
-  /* width: 400px; */
+  width: 400px;
 }
 
 .beef{
