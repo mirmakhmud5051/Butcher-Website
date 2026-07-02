@@ -64,6 +64,6 @@ if (item) {
       ">${item.button}</button>
     </div>
   `
-} else {
-  document.body.innerHTML = `<p style="text-align:center; margin-top:50px;">Mahsulot topilmadi</p>`
-}
+// } else {
+//   document.body.innerHTML = `<p style="text-align:center; margin-top:50px;">Mahsulot topilmadi</p>`
+// }
